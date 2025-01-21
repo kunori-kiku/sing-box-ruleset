@@ -33,16 +33,17 @@ jobs:
     - name: Re-Compile Sing-Box Rules
       run: |
         find . -type f -name "*.json" -exec bash -c '
-        echo "Re-compiling: $1"
+        echo "Re-compiling: $1";
         if ! sing-box rule-set compile "$1"; then
-          echo "Error compiling $1"
-          exit 1
+          echo "Error compiling $1";
+          exit 1;
         fi
         ' _ {} \;
         git add .
         if git diff-index --quiet HEAD --; then
-          echo "No changes to commit"
-          echo "No updates needed"
+          echo "No changes to commit";
+          echo "No updates needed";
         else
-          git commit -m "Re-compiled sing-box rules"
-          git push
+          git commit -m "Re-compiled sing-box rules";
+          git push;
+        fi
