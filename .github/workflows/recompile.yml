@@ -30,11 +30,11 @@ jobs:
         sudo mv sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box /usr/local/bin/sing-box
         sing-box version
 
-    - name: Re-Compile Sing-Box Rules
+    - name: Re-Compile and Overwrite Sing-Box Rules
       run: |
-        find . -type f -name "*.json" -exec bash -c '
+        find . -type f -name "*.srs" -exec bash -c '
         echo "Re-compiling: $1";
-        if ! sing-box rule-set compile "$1"; then
+        if ! sing-box rule-set compile "$1" -o "$1"; then
           echo "Error compiling $1";
           exit 1;
         fi
@@ -44,6 +44,11 @@ jobs:
           echo "No changes to commit";
           echo "No updates needed";
         else
-          git commit -m "Re-compiled sing-box rules";
+          git commit -m "Re-compiled and overwritten sing-box rules";
           git push;
         fi
+
+    - name: Clean up Sing-Box files
+      run: |
+        rm -rf sing-box-${SING_BOX_VERSION}-linux-amd64 sing-box.tar.gz
+        echo "Cleaned up sing-box installation files"
