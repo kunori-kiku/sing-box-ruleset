@@ -4,20 +4,18 @@
     {
       "domain": [
         "this_ruleset_is_made_by_sukkaw.ruleset.skk.moe",
-        "hanime1.me",
-        "javdb.com",
         "copymanga.site",
-        "www.coinbase.com"
+        "jav.guru",
+        "www.coinbase.com",
+        "javdb.com",
+        "cableav.tv",
+        "hanime1.me"
       ],
-      "domain_suffix": ["mandaom.com", "crunchyroll.com", "18comic.vip"],
-      "domain_keyword": [],
-      "domain_regex": [],
-      "ip_cidr": [],
-      "source_ip_cidr": [],
-      "source_port": [],
-      "port": [],
-      "process_name": [],
-      "process_path": []
+      "domain_suffix": [
+        "this_ruleset_is_made_by_sukkaw.ruleset.skk.moe",
+        "crunchyroll.com",
+        "mandaom.com"
+      ]
     }
   ]
 }

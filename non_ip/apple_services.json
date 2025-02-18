@@ -4,29 +4,24 @@
     {
       "domain": ["this_ruleset_is_made_by_sukkaw.ruleset.skk.moe"],
       "domain_suffix": [
-        "apple.co",
-        "appsto.re",
-        "me.com",
-        "apple.com",
-        "icloud.com",
-        "itunes.com",
-        "aaplimg.com",
-        "appstore.com",
-        "cdn-apple.com",
-        "apple-mapkit.com",
-        "apple-cloudkit.com",
-        "icloud-content.com",
-        "organicfruitapps.com",
-        "apple-dns.net",
+        "this_ruleset_is_made_by_sukkaw.ruleset.skk.moe",
         "apple.news",
-        "push-apple.com.akadns.net"
+        "apple-dns.net",
+        "push-apple.com.akadns.net",
+        "organicfruitapps.com",
+        "icloud-content.com",
+        "apple-cloudkit.com",
+        "apple-mapkit.com",
+        "cdn-apple.com",
+        "appstore.com",
+        "aaplimg.com",
+        "itunes.com",
+        "icloud.com",
+        "apple.com",
+        "me.com",
+        "appsto.re",
+        "apple.co"
       ],
-      "domain_keyword": [],
-      "domain_regex": [],
-      "ip_cidr": [],
-      "source_ip_cidr": [],
-      "source_port": [],
-      "port": [],
       "process_name": [
         "trustd",
         "netbiosd",
@@ -38,8 +33,7 @@
         "findmydevice-user-agent",
         "CoreLocationAgent",
         "WeatherWidget"
-      ],
-      "process_path": []
+      ]
     }
   ]
 }

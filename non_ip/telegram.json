@@ -4,29 +4,22 @@
     {
       "domain": ["this_ruleset_is_made_by_sukkaw.ruleset.skk.moe"],
       "domain_suffix": [
-        "t.me",
-        "tx.me",
-        "telegram.me",
-        "telesco.pe",
-        "legra.ph",
-        "telegra.ph",
-        "tdesktop.com",
-        "tg.dev",
-        "telegram.dog",
-        "telega.one",
-        "graph.org",
-        "telegram.org",
+        "this_ruleset_is_made_by_sukkaw.ruleset.skk.moe",
+        "telegram.space",
         "cdn-telegram.org",
-        "telegram.space"
-      ],
-      "domain_keyword": [],
-      "domain_regex": [],
-      "ip_cidr": [],
-      "source_ip_cidr": [],
-      "source_port": [],
-      "port": [],
-      "process_name": [],
-      "process_path": []
+        "telegram.org",
+        "graph.org",
+        "telega.one",
+        "telegram.dog",
+        "tg.dev",
+        "tdesktop.com",
+        "telegra.ph",
+        "legra.ph",
+        "telesco.pe",
+        "telegram.me",
+        "tx.me",
+        "t.me"
+      ]
     }
   ]
 }

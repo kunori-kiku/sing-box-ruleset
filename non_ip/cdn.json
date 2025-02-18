@@ -4,17 +4,23 @@
     {
       "domain": [
         "this_ruleset_is_made_by_sukkaw.ruleset.skk.moe",
-        "cdn-msp.jmcomic.me",
+        "cdn-msp.18comic.vip",
+        "cdn-msp.18comic.org",
         "cdn-msp.jmcomic-zzz.one",
-        "cdn-msp.18comic.vip"
+        "cdn-msp.jmcomic.me"
       ],
-      "domain_suffix": [],
+      "domain_suffix": ["this_ruleset_is_made_by_sukkaw.ruleset.skk.moe"],
       "domain_keyword": [
         "-files.gitbook.io",
         "vod-adaptive.akamaized.net",
         "web-assets.zendesk",
         "-res.cloudinary.com",
-        "dsn.algolia.net"
+        "dsn.algolia.net",
+        "-thumbs.pornhost.com",
+        "-cdn.eporner.com",
+        "cdn.adultempire.com",
+        "-assets.worldsex.com",
+        "-thumbs.worldsex.com"
       ],
       "domain_regex": [
         "^appcenter-filemanagement-[\\w.-]*?\\.cloudapp\\.net$",
@@ -22,40 +28,44 @@
         "^static[\\w.-]*?\\.tgstat\\.ru$",
         "^ocsp\\.[\\w.-]*?\\.amazontrust\\.com$",
         "^s3\\.[\\w.-]*?\\.wasabisys\\.com$",
+        "^object-storage-[\\w.-]*?\\.vexxhost\\.net$",
         "^i[\\w.-]\\.nhentai\\.net$",
         "^t[\\w.-]\\.nhentai\\.net$",
-        "^cdn[\\w.-]-thumbs\\.pornhost\\.com$",
         "^cdn[\\w.-]-dl\\.pornhost\\.com$",
         "^cdn-msp[\\w.-]\\.18comic\\.vip$",
         "^cdn-msp[\\w.-]\\.jmcomic\\.me$",
         "^cdn-msp[\\w.-]\\.jmcomic-zzz\\.one$",
-        "^static-[\\w.-][\\w.-]-cdn\\.eporner\\.com$",
+        "^cdn-msp[\\w.-]\\.18comic\\.org$",
         "^file[\\w.-]\\.mikuclub\\.fun$",
         "^cdn[\\w.-]\\.mikuclub\\.fun$",
+        "^assets[\\w.-]*?\\.freshdesk\\.com$",
         "^cdns\\.[\\w.-]*?\\.gigya\\.com$",
+        "^sdk\\.[\\w.-]*?\\.braze\\.eu$",
+        "^img[\\w.-]\\.porngo\\.com$",
+        "^img[\\w.-][\\w.-]\\.porngo\\.com$",
+        "^th-[\\w.-]*?\\.pornone\\.com$",
+        "^s[\\w.-][\\w.-][\\w.-]\\.pornone\\.com$",
+        "^browser-intake-[\\w.-]*?-datadoghq\\.com$",
         "^video-thumbnail2\\.fc2\\.com$",
         "^video[\\w.-]-thumbnail[\\w.-]\\.fc2\\.com$",
-        "^video-thumbnail2\\.liaoningmovie\\.net$",
+        "^video-thumbnail[\\w.-]\\.liaoningmovie\\.net$",
         "^video[\\w.-]-thumbnail[\\w.-]\\.liaoningmovie\\.net$",
         "^vip-videoprem[\\w.-]*?-thumbnail[\\w.-]\\.fc2\\.com$",
         "^blog-imgs-[\\w.-][\\w.-]\\.2nt\\.com$",
         "^blog-imgs-[\\w.-][\\w.-]\\.fc2\\.com$",
         "^rr[\\w.-]---[\\w.-][\\w.-]\\.ouo\\.si$",
-        "^[\\w.-]*?\\.ffzy-online[\\w.-]\\.com$",
-        "^[\\w.-]*?\\.ffzy-play[\\w.-]\\.com$",
         "^[\\w.-]*?\\.kuaikan-cdn[\\w.-]\\.com$",
-        "^[\\w.-]*?\\.lz-cdn[\\w.-]\\.com$",
-        "^[\\w.-]*?\\.lz-cdn[\\w.-][\\w.-]\\.com$",
         "^[\\w.-]*?\\.fsvod[\\w.-]\\.com$",
         "^image[\\w.-]*?\\.cloudokyo\\.cloud$",
-        "^video[\\w.-]*?\\.cloudokyo\\.cloud$"
-      ],
-      "ip_cidr": [],
-      "source_ip_cidr": [],
-      "source_port": [],
-      "port": [],
-      "process_name": [],
-      "process_path": []
+        "^video[\\w.-]*?\\.cloudokyo\\.cloud$",
+        "^v\\.rn[\\w.-][\\w.-][\\w.-]\\.xyz$",
+        "^s[\\w.-]\\.maxstream\\.org$",
+        "^s[\\w.-][\\w.-]\\.maxstream\\.org$",
+        "^media[\\w.-]\\.kissjav\\.com$",
+        "^media[\\w.-][\\w.-]\\.kissjav\\.com$",
+        "^[\\w.-]*?\\.img\\.[\\w.-]*?\\.sendibm[\\w.-]\\.com$",
+        "^cdn[\\w.-]\\.18girlssex\\.com$"
+      ]
     }
   ]
 }
