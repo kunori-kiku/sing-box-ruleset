@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "notebooklm-pa.googleapis.com"
+      ],
+      "domain_suffix": [
+        "cursor.com"
+      ]
+    }
+  ]
+}
